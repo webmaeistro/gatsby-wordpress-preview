@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "workspaces": [
+    "site",
+    "theme"
+  ],
+  "keywords": ["gatsby", "gatsby-theme", "gatsby-plugin", "wordpress", "docker"],
+  "name": "gatsby-wordpress-preview",
+  "description": "Wordpress in a docker image - gatsby to serve content - with preview",
+  "version": "0.3.1",
+  "dependencies": {},
+  "devDependencies": {
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
